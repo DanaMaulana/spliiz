@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Twitter, Linkedin, Github, Mail, ExternalLink } from 'lucide-react';
+import { Instagram, Twitter, Youtube, Music2 } from 'lucide-react';
 
 interface SocialLink {
   platform: string;
@@ -11,33 +11,27 @@ interface SocialLink {
 const socialLinks: SocialLink[] = [
   {
     platform: 'Instagram',
-    url: 'https://instagram.com',
+    url: 'https://www.instagram.com/_alan9_9/',
     icon: <Instagram size={20} />,
     color: 'hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500'
   },
   {
     platform: 'Twitter',
-    url: 'https://twitter.com',
+    url: 'https://x.com/DanaMaulanaDev',
     icon: <Twitter size={20} />,
     color: 'hover:bg-blue-500'
   },
   {
-    platform: 'LinkedIn',
-    url: 'https://linkedin.com',
-    icon: <Linkedin size={20} />,
-    color: 'hover:bg-blue-600'
+    platform: 'YouTube',
+    url: 'https://www.youtube.com/channel/UCqAgWDVXsXu3wOAGW8jL8rg',
+    icon: <Youtube size={20} />,
+    color: 'hover:bg-red-600'
   },
   {
-    platform: 'GitHub',
-    url: 'https://github.com',
-    icon: <Github size={20} />,
+    platform: 'TikTok',
+    url: 'https://www.tiktok.com/@alanmaulana1224',
+    icon: <Music2 size={20} />,
     color: 'hover:bg-gray-800'
-  },
-  {
-    platform: 'Email',
-    url: 'mailto:contact@example.com',
-    icon: <Mail size={20} />,
-    color: 'hover:bg-red-500'
   }
 ];
 

@@ -8,18 +8,17 @@ import {
   Briefcase, 
   BookOpen, 
   Camera, 
-  Music, 
   MessageCircle,
-  Coffee,
   Heart,
   Sparkles
 } from 'lucide-react';
+import profilePhoto from './assets/profile_photo.jpg';
 
 const profileData = {
-  name: "Valerie Pola",
-  bio: "Creative Designer & Digital Artist • Building beautiful experiences",
-  avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400",
-  location: "San Francisco, CA"
+  name: "Alan Maulana",
+  bio: "Web Developer & Video Editor • Building beautiful experiences",
+  avatar: profilePhoto,
+  location: "Indonesia",
 };
 
 const links = [
@@ -50,20 +49,6 @@ const links = [
     icon: <BookOpen size={24} className="text-white" />,
     description: "Thoughts on design and creativity",
     gradient: "from-orange-500/20 to-red-500/20"
-  },
-  {
-    title: "Music Playlist",
-    url: "https://spotify.com/playlist",
-    icon: <Music size={24} className="text-white" />,
-    description: "My current creative inspirations",
-    gradient: "from-pink-500/20 to-rose-500/20"
-  },
-  {
-    title: "Buy Me Coffee",
-    url: "https://buymeacoffee.com/example",
-    icon: <Coffee size={24} className="text-white" />,
-    description: "Support my creative journey",
-    gradient: "from-yellow-500/20 to-amber-500/20"
   }
 ];
 
@@ -151,11 +136,10 @@ function App() {
           <div className="flex items-center justify-center space-x-2 text-white/50 text-sm">
             <span>Made with</span>
             <Heart size={16} className="text-pink-400 animate-pulse" />
-            <span>using React & Tailwind</span>
           </div>
           <div className="flex items-center justify-center space-x-1 mt-2 text-white/30 text-xs">
             <Sparkles size={12} />
-            <span>© 2025 Valerie Pola. All rights reserved.</span>
+            <span>© 2025 Alan Maulana. All rights reserved.</span>
             <Sparkles size={12} />
           </div>
         </div>
