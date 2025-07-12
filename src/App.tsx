@@ -24,9 +24,9 @@ const profileData = {
 const links = [
   {
     title: "Portfolio Website",
-    url: "https://example.com/portfolio",
+    url: "https://alansosmed.vercel.app/",
     icon: <Globe size={24} className="text-white" />,
-    description: "View my creative work and projects",
+    description: "Kunjungi Halaman beranda milik saya",
     gradient: "from-purple-500/20 to-pink-500/20"
   },
   {
@@ -89,6 +89,8 @@ function App() {
       {/* Main Content */}
       <div className="relative z-10 container mx-auto px-4 py-8 max-w-md">
         <ProfileHeader {...profileData} />
+
+        <SocialLinks />
         
         <div className="space-y-4 mb-8">
           {links.map((link, index) => (
@@ -128,8 +130,6 @@ function App() {
             </button>
           </div>
         </div>
-
-        <SocialLinks />
 
         {/* Footer */}
         <div className="mt-12 text-center">

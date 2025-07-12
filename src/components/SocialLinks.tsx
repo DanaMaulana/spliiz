@@ -37,10 +37,10 @@ const socialLinks: SocialLink[] = [
 
 export const SocialLinks: React.FC = () => {
   return (
-    <div className="mt-8">
-      <h3 className="text-white/80 text-center text-sm font-medium mb-4 uppercase tracking-wider">
+    <div className="my-8">
+      {/* <h3 className="text-white/80 text-center text-sm font-medium mb-4 uppercase tracking-wider">
         Connect With Me
-      </h3>
+      </h3> */}
       <div className="flex justify-center space-x-4">
         {socialLinks.map((social, index) => (
           <a
