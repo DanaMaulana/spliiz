@@ -14,7 +14,7 @@ import profilePhoto from './assets/profile_photo.jpg';
 
 const profileData = {
   name: "Alan Maulana",
-  bio: "Web Developer & Video Editor • Building beautiful experiences",
+  bio: "Content creator & Streamer",
   avatar: profilePhoto,
   location: "Indonesia",
 };
@@ -36,7 +36,7 @@ const links = [
   },
   {
     title: "Kirim pesan secara anonim 📩",
-    url: "https://example.com/services",
+    url: "https://secreto.site/id/a6s8w7",
     icon: <MailIcon size={24} className="text-white" />,
     description: "Professional design consultations",
     gradient: "from-blue-500/20 to-cyan-500/20"
