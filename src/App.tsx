@@ -7,8 +7,8 @@ import {
   Globe, 
   Briefcase, 
   BookOpen, 
-  Camera, 
-  MessageCircle,
+  CoffeeIcon, 
+  MailIcon,
   Heart,
   Sparkles
 } from 'lucide-react';
@@ -23,25 +23,25 @@ const profileData = {
 
 const links = [
   {
-    title: "Portfolio Website",
+    title: "Halaman profil 🎯",
     url: "https://alansosmed.vercel.app/",
     icon: <Globe size={24} className="text-white" />,
     description: "Kunjungi Halaman beranda milik saya",
     gradient: "from-purple-500/20 to-pink-500/20"
   },
   {
-    title: "Design Services",
-    url: "https://example.com/services",
-    icon: <Briefcase size={24} className="text-white" />,
-    description: "Professional design consultations",
-    gradient: "from-blue-500/20 to-cyan-500/20"
-  },
-  {
-    title: "Photography",
-    url: "https://example.com/photography",
-    icon: <Camera size={24} className="text-white" />,
+    title: "Traktir saya kopi 👉",
+    url: "https://saweria.co/maulanaalan",
+    icon: <CoffeeIcon size={24} className="text-white" />,
     description: "Capturing moments and memories",
     gradient: "from-green-500/20 to-teal-500/20"
+  },
+  {
+    title: "Kirim pesan secara anonim 📩",
+    url: "https://example.com/services",
+    icon: <MailIcon size={24} className="text-white" />,
+    description: "Professional design consultations",
+    gradient: "from-blue-500/20 to-cyan-500/20"
   },
   {
     title: "Creative Blog",
@@ -103,7 +103,7 @@ function App() {
             </div>
           ))}
           
-          <div className="animate-slide-up" style={{ animationDelay: `${links.length * 100}ms` }}>
+          {/* <div className="animate-slide-up" style={{ animationDelay: `${links.length * 100}ms` }}>
             <button
               onClick={() => setIsContactOpen(true)}
               className="group relative block w-full p-4 rounded-2xl bg-gradient-to-r from-purple-500/30 to-pink-500/30 
@@ -128,7 +128,7 @@ function App() {
                 </div>
               </div>
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Footer */}
