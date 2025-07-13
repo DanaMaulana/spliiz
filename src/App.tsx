@@ -4,9 +4,7 @@ import { LinkButton } from './components/LinkButton';
 import { SocialLinks } from './components/SocialLinks';
 import { ContactModal } from './components/ContactModal';
 import { 
-  Globe, 
-  Briefcase, 
-  BookOpen, 
+  Globe,
   CoffeeIcon, 
   MailIcon,
   Heart,
