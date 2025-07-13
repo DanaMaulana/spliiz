@@ -43,13 +43,13 @@ const links = [
     description: "Professional design consultations",
     gradient: "from-blue-500/20 to-cyan-500/20"
   },
-  {
-    title: "Creative Blog",
-    url: "https://example.com/blog",
-    icon: <BookOpen size={24} className="text-white" />,
-    description: "Thoughts on design and creativity",
-    gradient: "from-orange-500/20 to-red-500/20"
-  }
+  // {
+  //   title: "Creative Blog",
+  //   url: "https://example.com/blog",
+  //   icon: <BookOpen size={24} className="text-white" />,
+  //   description: "Thoughts on design and creativity",
+  //   gradient: "from-orange-500/20 to-red-500/20"
+  // }
 ];
 
 function App() {
