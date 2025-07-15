@@ -21,24 +21,24 @@ const profileData = {
 
 const links = [
   {
-    title: "Halaman profil 🎯",
+    title: "Halaman 🎯",
     url: "https://alansosmed.vercel.app/",
     icon: <Globe size={24} className="text-white" />,
-    description: "Kunjungi Halaman beranda milik saya",
+    description: "Halaman profil",
     gradient: "from-purple-500/20 to-pink-500/20"
   },
   {
-    title: "Traktir saya kopi 👉",
+    title: "Traktir 👉",
     url: "https://saweria.co/maulanaalan",
     icon: <CoffeeIcon size={24} className="text-white" />,
-    description: "Capturing moments and memories",
+    description: "Traktir saya kopi 😁",
     gradient: "from-green-500/20 to-teal-500/20"
   },
   {
-    title: "Kirim pesan secara anonim 📩",
+    title: "Kirim 📩",
     url: "https://secreto.site/id/a6s8w7",
     icon: <MailIcon size={24} className="text-white" />,
-    description: "Professional design consultations",
+    description: "Kirim pesan secara anonim",
     gradient: "from-blue-500/20 to-cyan-500/20"
   },
   // {
